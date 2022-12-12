@@ -16,12 +16,13 @@ public class Lab3 {
      */
     public static void main(String[] args) {
      Scanner input = new Scanner(System.in);
+        /* First program to remove all coma in agiven string from the user */
       System.out.println("Enter string :");
    String x=input.next();
    x=x.replace(",","");
    System.out.println(x) ;
     System.out.println("-------------------------");
-   
+   /* Second program to calculate area and circumference of circla and triangle */
    circle c = new circle();
    System.out.println("Enter circle radius");
    c.radius=input.nextDouble();
