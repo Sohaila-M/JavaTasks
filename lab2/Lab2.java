@@ -16,7 +16,8 @@ public class Lab2 {
      */
     public static void main(String[] args) {
         Scanner input =new Scanner(System.in);
-     /*   System.out.print("Enter number of elements in array ");
+        /* First Program to find the largest element in an array entered by the user */
+        System.out.print("Enter number of elements in array ");
         int n = input.nextInt();
        double arr []=new double[n] ;
        System.out.print("Enter array elements");
@@ -28,8 +29,9 @@ public class Lab2 {
            if(num>max)
                max=num ;
     }
-       System.out.print("max = "+ max);
-       System.out.println("----------------");*/
+       System.out.println("max = "+ max);
+       System.out.println("----------------");
+        /* Second program to find the transpose og a 2D array */
  int r1 = 2, c1 = 3;
  int r2 = 3, c2 = 2;
  int[][]Matrix = { {3, -2, 5}, {3, 0, 4} };
