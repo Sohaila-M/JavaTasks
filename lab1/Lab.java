@@ -18,6 +18,7 @@ public class Lab {
      */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+        /* First Program to print the character whose ASCII value is entered by the user
         char asci;
         int num;
          System.out.print("Enter the ASCII : ");
@@ -25,6 +26,7 @@ public class Lab {
         asci = (char) num;
         System.out.println("Value is "+asci);
         System.out.println("----------------------------------------");
+        /* Second program to calculate npr
         int n=0, r=0,npr   ,fact=1, numerator, denominator, i=1, sub;
         while(n<=r ||n<=0 ||r<=0 ){
             System.out.println("n must be larger than r larger than zero ");
